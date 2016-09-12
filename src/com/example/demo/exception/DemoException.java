@@ -19,6 +19,7 @@ public class DemoException {
             return 1;
         } catch (NullPointerException ex) {
             System.out.println("NullPointerException");
+            System.exit(2);
             return 2;
         } finally {
             System.out.println("finally");
